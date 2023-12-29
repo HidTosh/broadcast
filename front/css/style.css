@@ -1,0 +1,72 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1rem;
+	line-height: 1.58;
+	color: #333;
+	background-color: #f4f4f4;
+	height: 100%;
+}
+
+.page-container {
+	width: 500px;
+	margin: auto;
+	text-align: center;
+}
+
+.input-group {
+	margin: 15px;
+}
+
+.messages {
+	width: 100%;
+	text-align: left;
+	max-height: 500px;
+	overflow: auto;
+}
+
+#form-message {
+	display: none;
+}
+
+.user-on {
+	color: white;
+	background: #dbdbdb;
+	border-radius: 5px;
+	padding: 3px;
+	font-size: 13px;
+}
+
+.user-off {
+	color: white;
+	background: #ff00004d;
+	border-radius: 5px;
+	padding: 3px;
+	font-size: 13px;
+	text-align: center;
+}
+
+.time {
+	color: #878787;
+	font-size: 13px;
+}
+
+.user {
+	text-align: left;
+}
+
+.message {
+	text-align: left;
+}
+
+.users {
+	text-align: right;
+	color: #8f8f8f;
+	font-size: 12px;
+}
+
+.messages {
+	text-align: right;
+}
